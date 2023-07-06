@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-06T14:53:03 BDT" name="Default suite" finished-at="2023-07-06T14:53:10 BDT" duration-ms="6995">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T14:53:03 BDT" name="Default test" finished-at="2023-07-06T14:53:10 BDT" duration-ms="6995">
+      <class name="com.formy.tests.DatePicker_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.formy.tests.DatePicker_Test@1700915]" started-at="2023-07-06T14:53:03 BDT" name="setup" finished-at="2023-07-06T14:53:05 BDT" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCalender()[pri:0, instance:com.formy.tests.DatePicker_Test@1700915]" started-at="2023-07-06T14:53:05 BDT" name="VerifyCalender" finished-at="2023-07-06T14:53:10 BDT" duration-ms="4795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCalender -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.formy.tests.DatePicker_Test@1700915]" started-at="2023-07-06T14:53:10 BDT" name="tearUp" finished-at="2023-07-06T14:53:10 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- com.formy.tests.DatePicker_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
