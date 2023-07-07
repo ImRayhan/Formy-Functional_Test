@@ -63,4 +63,14 @@ public class DataPicker_Page {
 		}
 
 	}
+
+	public String DaePickerText() {
+		return dataPickerElement.dataPickerGetTextElement.getText();
+
+	}
+
+	public boolean DaePickerTextDisplayed() {
+		return dataPickerElement.dataPickerGetTextElement.isDisplayed();
+
+	}
 }

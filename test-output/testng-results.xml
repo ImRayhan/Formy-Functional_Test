@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-06T14:53:03 BDT" name="Default suite" finished-at="2023-07-06T14:53:10 BDT" duration-ms="6995">
+  <suite started-at="2023-07-07T23:53:26 BDT" name="Default suite" finished-at="2023-07-07T23:53:44 BDT" duration-ms="17359">
     <groups>
     </groups>
-    <test started-at="2023-07-06T14:53:03 BDT" name="Default test" finished-at="2023-07-06T14:53:10 BDT" duration-ms="6995">
-      <class name="com.formy.tests.DatePicker_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.formy.tests.DatePicker_Test@1700915]" started-at="2023-07-06T14:53:03 BDT" name="setup" finished-at="2023-07-06T14:53:05 BDT" duration-ms="2187" status="PASS">
+    <test started-at="2023-07-07T23:53:26 BDT" name="Default test" finished-at="2023-07-07T23:53:44 BDT" duration-ms="17359">
+      <class name="com.formy.tests.EnbledAndDisbled_Sanity_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.formy.tests.EnbledAndDisbled_Sanity_Test@48ae9b55]" started-at="2023-07-07T23:53:26 BDT" name="setup" finished-at="2023-07-07T23:53:29 BDT" duration-ms="2633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCalender()[pri:0, instance:com.formy.tests.DatePicker_Test@1700915]" started-at="2023-07-06T14:53:05 BDT" name="VerifyCalender" finished-at="2023-07-06T14:53:10 BDT" duration-ms="4795" status="PASS">
+        <test-method signature="checkingEnbledDisbledButton()[pri:0, instance:com.formy.tests.EnbledAndDisbled_Sanity_Test@48ae9b55]" started-at="2023-07-07T23:53:29 BDT" name="checkingEnbledDisbledButton" finished-at="2023-07-07T23:53:44 BDT" duration-ms="14712" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyCalender -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.formy.tests.DatePicker_Test@1700915]" started-at="2023-07-06T14:53:10 BDT" name="tearUp" finished-at="2023-07-06T14:53:10 BDT" duration-ms="0" status="PASS">
+        </test-method> <!-- checkingEnbledDisbledButton -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.formy.tests.EnbledAndDisbled_Sanity_Test@48ae9b55]" started-at="2023-07-07T23:53:44 BDT" name="tearUp" finished-at="2023-07-07T23:53:44 BDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- com.formy.tests.DatePicker_Test -->
+      </class> <!-- com.formy.tests.EnbledAndDisbled_Sanity_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

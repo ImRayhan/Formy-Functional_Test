@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.formy.tests.DatePicker_Test">
+      <class name="com.formy.tests.EnbledAndDisbled_Sanity_Test">
         <methods>
+          <include name="checkingEnbledDisbledButton"/>
           <include name="tearUp"/>
-          <include name="VerifyCalender"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.formy.tests.DatePicker_Test -->
+      </class> <!-- com.formy.tests.EnbledAndDisbled_Sanity_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

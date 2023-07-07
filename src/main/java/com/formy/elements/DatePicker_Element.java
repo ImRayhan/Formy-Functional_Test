@@ -33,5 +33,8 @@ public class DatePicker_Element {
 	@FindBy(xpath = "//td[@class='day']")
 	public List<WebElement> monthallElement;
 	
+	@FindBy(xpath = "//h1[normalize-space()='Datepicker']")
+	public WebElement dataPickerGetTextElement;
+	
 	
 }
