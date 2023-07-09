@@ -1,12 +1,22 @@
 package com.formy.tests;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Autocomplete_Regression extends BaseTest {
 
-	@Test
+	@Test(priority = 1, groups = "smoke", enabled = true)
 	public void VerifyAutoCompleteForm() {
 		App().Flow().Navigate(App().Pages().AutocompltePage().gotoUrl());
 		App().Pages().AutocompltePage().clickAutocomplete();
@@ -21,11 +31,11 @@ public class Autocomplete_Regression extends BaseTest {
 		String actualUrl = App().Flow().GetCurrentUrl();
 		String actuaTitle = App().Flow().GetTitle();
 		SoftAssert as = new SoftAssert();
-		as.assertEquals(expectedUrl, actualUrl);
-		Assert.assertEquals(expectedTitle, actuaTitle);
+		AssertJUnit.assertEquals(expectedUrl, actualUrl);
+		AssertJUnit.assertEquals(expectedTitle, actuaTitle);
 		as.assertAll();
 		Assert.assertTrue(App().Pages().AutocompltePage().EnbleComponents());
-		Assert.assertEquals(App().Pages().AutocompltePage().visbleText(), "Autocomplete");
+		AssertJUnit.assertEquals(App().Pages().AutocompltePage().visbleText(), "Autocomplete");
 
 	}
 

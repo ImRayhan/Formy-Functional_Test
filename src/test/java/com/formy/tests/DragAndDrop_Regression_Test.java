@@ -1,11 +1,21 @@
 package com.formy.tests;
 
+import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.Assert;
 import static org.testng.Assert.fail;
 
 import org.testng.annotations.Test;
 
 public class DragAndDrop_Regression_Test extends BaseTest {
-	@Test
+	@Test(priority = 1, groups = "smoke", enabled = true)
 	public void verfyDragAnddrop() {
 
 		App().Flow().Navigate(App().Pages().dragAndDropPage().gotoUrl());
@@ -14,7 +24,7 @@ public class DragAndDrop_Regression_Test extends BaseTest {
 
 		if (!App().Pages().dragAndDropPage().DragtheimageintotheboxDisplayed()
 				.equalsIgnoreCase("Drag the image into the box")) {
-			fail();
+			Assert.fail();
 
 		}
 

@@ -1,0 +1,17 @@
+<suite name ="firefoxTest">
+	<parameters>
+		<parameter name="browser" value="firefox"/>	
+	</parameters>
+	<test name="Release 2023.7 smoke Testing">
+		<groups>
+			<run>
+				<include name="smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.formy.tests.SwithWindow_Integration_Test" />
+		</classes>
+
+	</test>
+
+</suite>

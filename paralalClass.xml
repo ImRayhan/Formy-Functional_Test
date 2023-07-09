@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="com.formy.tests.PageScroll_Sanity_Test"/>
+      <class name="com.formy.tests.CheckBox_Regression_Test"/>
+      <class name="com.formy.tests.ModalPage_Unit_Test"/>
+      <class name="com.formy.tests.DragAndDrop_Regression_Test"/>
+      <class name="com.formy.tests.FormyButtons_Sanity_Test"/>
+      <class name="com.formy.tests.CompleteWebForm_Smoke_Test"/>
+      <class name="com.formy.tests.RadioButton_Regression_Test"/>
+      <class name="com.formy.tests.Autocomplete_Regression"/>
+      <class name="com.formy.tests.KeyboardandMousePress_Unit_Test"/>
+      <class name="com.formy.tests.EnbledAndDisbled_Sanity_Test"/>
+      <class name="com.formy.tests.FileUpload_Unit_Test"/>
+      <class name="com.formy.tests.DatePicker_Smoke"/>
+      <class name="com.formy.tests.DropDoown_Sanity"/>
+      <class name="com.formy.tests.SwithWindow_Integration_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.formy.tests.EnbledAndDisbled_Sanity_Test">
+      <class name="com.formy.tests.Autocomplete_Regression">
         <methods>
-          <include name="checkingEnbledDisbledButton"/>
           <include name="tearUp"/>
           <include name="setup"/>
+          <include name="VerifyAutoCompleteForm"/>
         </methods>
-      </class> <!-- com.formy.tests.EnbledAndDisbled_Sanity_Test -->
+      </class> <!-- com.formy.tests.Autocomplete_Regression -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
