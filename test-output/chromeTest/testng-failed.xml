@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [chromeTest]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Release 2023.7 Sanity Testing(failed)">
+    <classes>
+      <class name="com.formy.tests.DropDoown_Sanity">
+        <methods>
+          <include name="tearUp"/>
+          <include name="setup"/>
+          <include name="VerifyingDropDownMenue"/>
+        </methods>
+      </class> <!-- com.formy.tests.DropDoown_Sanity -->
+      <class name="com.formy.tests.KeyboardandMousePress_Unit_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="VerifyingKeyboardandMouseInput"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.formy.tests.KeyboardandMousePress_Unit_Test -->
+      <class name="com.formy.tests.CheckBox_Regression_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="setup"/>
+          <include name="VerifyCheckBox"/>
+        </methods>
+      </class> <!-- com.formy.tests.CheckBox_Regression_Test -->
+      <class name="com.formy.tests.DatePicker_Smoke">
+        <methods>
+          <include name="tearUp"/>
+          <include name="VerifyCalender"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.formy.tests.DatePicker_Smoke -->
+      <class name="com.formy.tests.CompleteWebForm_Smoke_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="setup"/>
+          <include name="verifyingWebForm"/>
+        </methods>
+      </class> <!-- com.formy.tests.CompleteWebForm_Smoke_Test -->
+      <class name="com.formy.tests.ModalPage_Unit_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="verifyingModel"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.formy.tests.ModalPage_Unit_Test -->
+      <class name="com.formy.tests.Autocomplete_Regression">
+        <methods>
+          <include name="tearUp"/>
+          <include name="setup"/>
+          <include name="VerifyAutoCompleteForm"/>
+        </methods>
+      </class> <!-- com.formy.tests.Autocomplete_Regression -->
+      <class name="com.formy.tests.DragAndDrop_Regression_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="setup"/>
+          <include name="verfyDragAnddrop"/>
+        </methods>
+      </class> <!-- com.formy.tests.DragAndDrop_Regression_Test -->
+      <class name="com.formy.tests.RadioButton_Regression_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="verifyRadioButtons"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.formy.tests.RadioButton_Regression_Test -->
+      <class name="com.formy.tests.PageScroll_Sanity_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="verifyingScrollingPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.formy.tests.PageScroll_Sanity_Test -->
+      <class name="com.formy.tests.FormyButtons_Sanity_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="VerifyBtnFunctionality"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.formy.tests.FormyButtons_Sanity_Test -->
+      <class name="com.formy.tests.SwithWindow_Integration_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="VerifyingMultipleTab"/>
+          <include name="VerifyingAlert"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.formy.tests.SwithWindow_Integration_Test -->
+      <class name="com.formy.tests.FileUpload_Unit_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="setup"/>
+          <include name="VerifyFileUpload"/>
+        </methods>
+      </class> <!-- com.formy.tests.FileUpload_Unit_Test -->
+      <class name="com.formy.tests.EnbledAndDisbled_Sanity_Test">
+        <methods>
+          <include name="tearUp"/>
+          <include name="checkingEnbledDisbledButton"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.formy.tests.EnbledAndDisbled_Sanity_Test -->
+    </classes>
+  </test> <!-- Release 2023.7 Sanity Testing(failed) -->
+</suite> <!-- Failed suite [chromeTest] -->

@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-09T12:38:22 BDT" name="Default suite" finished-at="2023-07-09T12:38:31 BDT" duration-ms="9014">
+  <suite started-at="2023-09-10T01:31:21 EDT" name="firefoxTest" finished-at="2023-09-10T01:31:29 EDT" duration-ms="8676">
     <groups>
       <group name="smoke">
-        <method signature="Autocomplete_Regression.VerifyAutoCompleteForm()[pri:1, instance:com.formy.tests.Autocomplete_Regression@30ee2816]" name="VerifyAutoCompleteForm" class="com.formy.tests.Autocomplete_Regression"/>
+        <method signature="DatePicker_Smoke.VerifyCalender()[pri:1, instance:com.formy.tests.DatePicker_Smoke@13e39c73]" name="VerifyCalender" class="com.formy.tests.DatePicker_Smoke"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-07-09T12:38:22 BDT" name="Default test" finished-at="2023-07-09T12:38:31 BDT" duration-ms="9014">
-      <class name="com.formy.tests.Autocomplete_Regression">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.formy.tests.Autocomplete_Regression@30ee2816]" started-at="2023-07-09T12:38:22 BDT" name="setup" finished-at="2023-07-09T12:38:25 BDT" duration-ms="2314" status="PASS">
+    <test started-at="2023-09-10T01:31:21 EDT" name="Release 2023.7 smoke Testing" finished-at="2023-09-10T01:31:29 EDT" duration-ms="8676">
+      <class name="com.formy.tests.DatePicker_Smoke">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.formy.tests.DatePicker_Smoke@13e39c73]" started-at="2023-09-10T01:31:21 EDT" name="setup" finished-at="2023-09-10T01:31:26 EDT" duration-ms="5753" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyAutoCompleteForm()[pri:1, instance:com.formy.tests.Autocomplete_Regression@30ee2816]" started-at="2023-07-09T12:38:25 BDT" name="VerifyAutoCompleteForm" finished-at="2023-07-09T12:38:31 BDT" duration-ms="6577" status="PASS">
+        <test-method signature="VerifyCalender()[pri:1, instance:com.formy.tests.DatePicker_Smoke@13e39c73]" started-at="2023-09-10T01:31:26 EDT" name="VerifyCalender" finished-at="2023-09-10T01:31:29 EDT" duration-ms="2474" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyAutoCompleteForm -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.formy.tests.Autocomplete_Regression@30ee2816]" started-at="2023-07-09T12:38:31 BDT" name="tearUp" finished-at="2023-07-09T12:38:31 BDT" duration-ms="109" status="PASS">
+        </test-method> <!-- VerifyCalender -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.formy.tests.DatePicker_Smoke@13e39c73]" started-at="2023-09-10T01:31:29 EDT" name="tearUp" finished-at="2023-09-10T01:31:29 EDT" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- com.formy.tests.Autocomplete_Regression -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.formy.tests.DatePicker_Smoke -->
+    </test> <!-- Release 2023.7 smoke Testing -->
+  </suite> <!-- firefoxTest -->
 </testng-results>

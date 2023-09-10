@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [firefoxTest]">
+  <parameter name="browsers" value="chrome"/>
+  <test thread-count="5" name="Release 2023.7 smoke T(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.formy.tests.Autocomplete_Regression">
+      <class name="com.formy.tests.DatePicker_Smoke">
         <methods>
           <include name="tearUp"/>
+          <include name="VerifyCalender"/>
           <include name="setup"/>
-          <include name="VerifyAutoCompleteForm"/>
         </methods>
-      </class> <!-- com.formy.tests.Autocomplete_Regression -->
+      </class> <!-- com.formy.tests.DatePicker_Smoke -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Release 2023.7 smoke T(failed) -->
+</suite> <!-- Failed suite [firefoxTest] -->
