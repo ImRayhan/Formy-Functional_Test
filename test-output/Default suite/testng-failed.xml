@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.formy.tests.Autocomplete_Regression">
+      <class name="com.formy.tests.CompleteWebForm_Smoke_Test">
         <methods>
           <include name="tearUp"/>
           <include name="setup"/>
-          <include name="VerifyAutoCompleteForm"/>
+          <include name="verifyingWebForm"/>
         </methods>
-      </class> <!-- com.formy.tests.Autocomplete_Regression -->
+      </class> <!-- com.formy.tests.CompleteWebForm_Smoke_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

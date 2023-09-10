@@ -1,35 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-10T01:31:21 EDT" name="firefoxTest" finished-at="2023-09-10T01:31:29 EDT" duration-ms="8676">
+  <suite started-at="2023-09-10T02:25:22 EDT" name="Default suite" finished-at="2023-09-10T02:25:30 EDT" duration-ms="7981">
     <groups>
       <group name="smoke">
-        <method signature="DatePicker_Smoke.VerifyCalender()[pri:1, instance:com.formy.tests.DatePicker_Smoke@13e39c73]" name="VerifyCalender" class="com.formy.tests.DatePicker_Smoke"/>
+        <method signature="CompleteWebForm_Smoke_Test.verifyingWebForm()[pri:1, instance:com.formy.tests.CompleteWebForm_Smoke_Test@63355449]" name="verifyingWebForm" class="com.formy.tests.CompleteWebForm_Smoke_Test"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-09-10T01:31:21 EDT" name="Release 2023.7 smoke Testing" finished-at="2023-09-10T01:31:29 EDT" duration-ms="8676">
-      <class name="com.formy.tests.DatePicker_Smoke">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.formy.tests.DatePicker_Smoke@13e39c73]" started-at="2023-09-10T01:31:21 EDT" name="setup" finished-at="2023-09-10T01:31:26 EDT" duration-ms="5753" status="PASS">
+    <test started-at="2023-09-10T02:25:22 EDT" name="Default test" finished-at="2023-09-10T02:25:30 EDT" duration-ms="7981">
+      <class name="com.formy.tests.CompleteWebForm_Smoke_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.formy.tests.CompleteWebForm_Smoke_Test@63355449]" started-at="2023-09-10T02:25:22 EDT" name="setup" finished-at="2023-09-10T02:25:23 EDT" duration-ms="1629" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCalender()[pri:1, instance:com.formy.tests.DatePicker_Smoke@13e39c73]" started-at="2023-09-10T01:31:26 EDT" name="VerifyCalender" finished-at="2023-09-10T01:31:29 EDT" duration-ms="2474" status="PASS">
+        <test-method signature="verifyingWebForm()[pri:1, instance:com.formy.tests.CompleteWebForm_Smoke_Test@63355449]" started-at="2023-09-10T02:25:23 EDT" name="verifyingWebForm" finished-at="2023-09-10T02:25:29 EDT" duration-ms="6215" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.179)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cdf62f37e88c5f534f8eb3f72f0ec011, findElement {using=xpath, value=//input[@id='datepicker']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/ny/0jxhfr217tb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60307}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60307/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cdf62f37e88c5f534f8eb3f72f0ec011]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.179)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.2', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cdf62f37e88c5f534f8eb3f72f0ec011, findElement {using=xpath, value=//input[@id='datepicker']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/ny/0jxhfr217tb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60307}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60307/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cdf62f37e88c5f534f8eb3f72f0ec011
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.formy.pages.CompleteWebForm_Page.Date(CompleteWebForm_Page.java:92)
+at com.formy.tests.CompleteWebForm_Smoke_Test.verifyingWebForm(CompleteWebForm_Smoke_Test.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyCalender -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.formy.tests.DatePicker_Smoke@13e39c73]" started-at="2023-09-10T01:31:29 EDT" name="tearUp" finished-at="2023-09-10T01:31:29 EDT" duration-ms="435" status="PASS">
+        </test-method> <!-- verifyingWebForm -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.formy.tests.CompleteWebForm_Smoke_Test@63355449]" started-at="2023-09-10T02:25:29 EDT" name="tearUp" finished-at="2023-09-10T02:25:30 EDT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- com.formy.tests.DatePicker_Smoke -->
-    </test> <!-- Release 2023.7 smoke Testing -->
-  </suite> <!-- firefoxTest -->
+      </class> <!-- com.formy.tests.CompleteWebForm_Smoke_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

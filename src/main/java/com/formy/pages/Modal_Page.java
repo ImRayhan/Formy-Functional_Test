@@ -7,7 +7,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.formy.elements.Modal_Element;
-import com.google.auto.common.Visibility;
 
 public class Modal_Page {
 
@@ -40,15 +39,15 @@ public class Modal_Page {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.visibilityOf(modalElement.closeBtnElement));
 		if (modalElement.closeBtnElement.isDisplayed()) {
-   		modalElement.closeBtnElement.click();
+			modalElement.closeBtnElement.click();
 
 		}
 
 	}
-	
+
 	public String modalTitleText() {
 		return modalElement.modalTitleElement.getText();
-		
+
 	}
 
 }
